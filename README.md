@@ -1,4 +1,9 @@
+
 # Gandi DNS Auto-Updater
+
+I noticed that the Dynamic DNS section on my Edgerouter-X didn't list Gandi, so thought I'd throw together a quick script to do it for me.
+
+
 
 ## Variables & Deployment
 
@@ -43,3 +48,9 @@ fi
 Run `chmod +x updater.sh` and execute the script manually to verify it's working as intended
 
 This can then be ran via whatever means suit you, cronjob, event scheduler etc
+
+
+## Todo
+
+- Gandi API output parsing to check if the update was successful
+
